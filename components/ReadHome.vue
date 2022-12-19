@@ -18,19 +18,19 @@
             </div>
         </div>
         <div class="dis-between">
-            <h2 class="list-title">หนัง AV</h2>
+            <h2 class="list-title">หนัง ล่าสุด</h2>
         </div>
         <div class="" v-if="movieList">
             <swiperAV />
         </div>
         <div class="dis-between">
-            <h2 class="list-title">หนัง AV</h2>
+            <h2 class="list-title">หนัง ใหม่</h2>
         </div>
         <div class="" v-if="movieList">
             <swiperAV />
         </div>
         <div class="dis-between">
-            <h2 class="list-title">หนัง AV</h2>
+            <h2 class="list-title">หนัง นมใหญ่</h2>
         </div>
         <div class="" v-if="movieList">
             <swiperAV />
