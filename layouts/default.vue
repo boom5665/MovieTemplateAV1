@@ -2,21 +2,7 @@
     <div>
         <b-container>
             <Header />
-
-            <!-- <div class="text-center">
-                <h2 class="web-title">MOVIE</h2>
-                <h3 class="web-slogan">{{ slogan }}</h3>
-            </div> -->
-            <!-- <Poster /> -->
         </b-container>
-        <!-- <div class="full-category-line">
-            <nuxt-link to="/" class="cat-btn active">หนังยอดนิยม</nuxt-link>
-            <nuxt-link to="/movie/category/action" class="cat-btn">หนังแอคชั่น</nuxt-link>
-            <nuxt-link to="/movie/category/comedy" class="cat-btn">หนังตลก</nuxt-link>
-            <nuxt-link to="/movie/category/drama" class="cat-btn">หนังดราม่า</nuxt-link>
-            <nuxt-link to="/movie/category/horror" class="cat-btn">หนังสยองขวัญ</nuxt-link>
-            <nuxt-link to="/movie/category/adventure" class="cat-btn">หนังผจญภัย</nuxt-link>
-        </div> -->
         <b-container>
             <b-row>
                 <b-col cols="12" md="12" lg="12">
@@ -36,8 +22,8 @@
                 <a class="ads-image" :href="value.url" target="_blank" v-for="(value, index) in adsBottom" :key="index" @click="updateAdsImageClick(value)">
                     <nuxt-img :src="value.picture" :alt="value.name" />
                 </a>
-                <!-- <nuxt-img format="webp" src="/center.png" alt="loader" />
-                <nuxt-img format="webp" src="/center.png" alt="loader" /> -->
+                <nuxt-img format="webp" src="/center.png" alt="loader" />
+                <nuxt-img format="webp" src="/center.png" alt="loader" />
                 <div class="close-ads" @click="showAds = false">X</div>
             </div>
         </div>

@@ -21,12 +21,13 @@
                 </b-col>
 
             </b-row>
-              <Banner />
+
             <div class="footer-text">
                 <div class="footer-title">{{ slogan }}</div>
                   <div class="footer-content" v-html="descriptionFooter"></div>
             </div>
         </b-container>
+        <Banner />
         <Footer />
         <div class="footer-ads-container" v-show="showAds" v-if="adsBottom.length > 0">
             <div class="inner-container">
